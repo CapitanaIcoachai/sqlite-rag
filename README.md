@@ -22,6 +22,17 @@ ollama pull nomic-embed-text        # embedding model
 python example.py
 ```
 
+### Example run (real output)
+
+```text
+Query: How far from Earth does the telescope orbit, and at which point?
+  [0.807] jwst: The James Webb Space Telescope launched on 25 December 2021 ...
+
+Generated answer:
+  The telescope orbits the Sun at the second Lagrange point (L2),
+  about 1.5 million kilometres from Earth.
+```
+
 ## Usage
 
 ```python
